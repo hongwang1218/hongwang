@@ -10,7 +10,7 @@ import com.websystique.springboot.configuration.JpaConfiguration;
 @Import(JpaConfiguration.class)
 @SpringBootApplication(scanBasePackages={"com.websystique.springboot"})// same as @Configuration @EnableAutoConfiguration @ComponentScan
 public class SpringBootCRUDApp {
-
+	//main()
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootCRUDApp.class, args);
 	}
